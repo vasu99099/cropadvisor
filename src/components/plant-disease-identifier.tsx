@@ -200,6 +200,7 @@ export default function PlantDiseaseIdentifier({ locale, translations }: PlantDi
       const input: DiagnosePlantFromImageInput = {
         imageDataUri: imageDataUri,
         description: values.description,
+        language: locale, // Pass the current locale
       };
       const result = await diagnosePlantFromImage(input);
       setDiagnosisResult(result);

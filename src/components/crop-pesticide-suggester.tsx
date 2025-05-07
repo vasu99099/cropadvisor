@@ -51,7 +51,12 @@ export default function CropPesticideSuggester({ locale, translations }: CropPes
     setError(null);
     setSuggestions(null);
     try {
-      const result = await suggestPesticide(values as SuggestPesticideInput);
+      const input: SuggestPesticideInput = {
+        crop: values.crop,
+        problemDescription: values.problemDescription,
+        language: locale, // Pass the current locale
+      };
+      const result = await suggestPesticide(input);
       setSuggestions(result.pesticideSuggestions);
     } catch (e) {
       console.error(e);
