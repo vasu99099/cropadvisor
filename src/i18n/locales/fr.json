@@ -1,0 +1,75 @@
+
+{
+  "appName": "CropSafe Conseiller",
+  "header": {
+    "navCropSuggestions": "Suggestions de Culture",
+    "navProductCatalog": "Catalogue de Produits",
+    "navDiseaseStats": "Statistiques Maladies"
+  },
+  "hero": {
+    "titleLine1": "Protégez Votre Récolte avec des",
+    "titleHighlight": "Conseils d'Experts",
+    "titleLine2": "",
+    "subtitle": "Obtenez des recommandations de pesticides basées sur l'IA, adaptées à vos cultures, et luttez efficacement contre les maladies des plantes. Parcourez notre catalogue pour les meilleures solutions.",
+    "ctaGetSuggestions": "Obtenir Suggestions",
+    "ctaViewCatalog": "Voir Catalogue",
+    "imageAlt": "Champ verdoyant sous un ciel clair",
+    "imageCaption": "Cultures Saines, Récolte Abondante"
+  },
+  "cropSuggester": {
+    "title": "Recommandations de Pesticides",
+    "description": "Sélectionnez votre culture et décrivez le problème pour obtenir des suggestions de pesticides basées sur l'IA.",
+    "cropLabel": "Type de Culture",
+    "cropPlaceholder": "Sélectionnez une culture",
+    "problemDescriptionLabel": "Description du Problème",
+    "problemDescriptionPlaceholder": "ex: les feuilles ont des taches jaunes, les ravageurs mangent les fruits...",
+    "problemDescriptionHint": "Décrivez les symptômes ou les ravageurs que vous observez.",
+    "submitButton": "Obtenir Suggestions",
+    "suggestionsTitle": "Pesticides Recommandés",
+    "suitability": "Pourquoi c'est adapté:",
+    "applicationInstructions": "Application:",
+    "categories": "Catégories:",
+    "crops": "Efficace sur:",
+    "noSuggestions": "Aucune Suggestion Trouvée",
+    "noSuggestionsDescription": "Nous n'avons trouvé aucune suggestion de pesticide pour le problème et la culture donnés. Veuillez essayer de modifier votre description.",
+    "errorFetching": "Une erreur s'est produite lors de la récupération des suggestions. Veuillez réessayer."
+  },
+  "productCatalog": {
+    "title": "Catalogue de Produits Pesticides",
+    "description": "Découvrez notre large gamme de produits pesticides. Trouvez des informations détaillées, y compris les instructions d'application et les cultures cibles.",
+    "searchLabel": "Rechercher Produits",
+    "searchPlaceholder": "Entrez le nom du produit...",
+    "categoryFilterLabel": "Filtrer par Catégorie",
+    "categoryFilterPlaceholder": "Sélectionnez une catégorie",
+    "cropFilterLabel": "Filtrer par Culture",
+    "cropFilterPlaceholder": "Sélectionnez une culture",
+    "allCategories": "Toutes les Catégories",
+    "allCrops": "Toutes les Cultures",
+    "applicationInstructions": "Instructions d'Application",
+    "categories": "Catégories",
+    "crops": "Efficace sur",
+    "noProductsFound": "Aucun Produit Trouvé",
+    "noProductsFoundDescription": "Vos critères de recherche et de filtre n'ont correspondu à aucun produit. Essayez d'ajuster vos filtros."
+  },
+  "diseaseStats": {
+    "title": "Aperçu des Maladies Prévalentes",
+    "description": "Restez informé des maladies des plantes les plus courantes affectant actuellement les cultures.",
+    "chartTitle": "Principales Maladies Prévalentes",
+    "chartDescription": "Basé sur les données agricoles actuelles.",
+    "diseaseName": "Maladie",
+    "prevalence": "Prévalence (Cas Signalés)",
+    "noDataTitle": "Aucune Donnée sur les Maladies Disponible",
+    "noDataDescription": "Nous ne parvenons actuellement pas à récupérer les statistiques sur les maladies. Veuillez vérifier ultérieurement."
+  },
+  "footer": {
+    "copyrightText": "CropSafe Conseiller. Tous droits réservés."
+  },
+  "validation": {
+    "cropRequired": "Le type de culture est requis.",
+    "problemDescriptionRequired": "La description du problème est requise.",
+    "problemDescriptionMinLength": "La description du problème doit comporter au moins 10 caractères."
+  },
+  "commonCrops": [
+    "Blé", "Maïs", "Riz", "Soja", "Coton", "Tomate", "Pomme de terre", "Pomme", "Orange", "Raisins", "Canne à sucre", "Orge", "Tournesol", "Arachide", "Mangue"
+  ]
+}

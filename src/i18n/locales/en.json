@@ -1,0 +1,75 @@
+
+{
+  "appName": "CropSafe Advisor",
+  "header": {
+    "navCropSuggestions": "Crop Suggestions",
+    "navProductCatalog": "Product Catalog",
+    "navDiseaseStats": "Disease Stats"
+  },
+  "hero": {
+    "titleLine1": "Protect Your Harvest with",
+    "titleHighlight": "Expert Advice",
+    "titleLine2": "",
+    "subtitle": "Get AI-powered pesticide recommendations tailored to your crops and fight plant diseases effectively. Browse our catalog for the best solutions.",
+    "ctaGetSuggestions": "Get Suggestions",
+    "ctaViewCatalog": "View Catalog",
+    "imageAlt": "Lush green field under a clear sky",
+    "imageCaption": "Healthy Crops, Bountiful Harvest"
+  },
+  "cropSuggester": {
+    "title": "Pesticide Recommendations",
+    "description": "Select your crop and describe the problem to get AI-powered pesticide suggestions.",
+    "cropLabel": "Crop Type",
+    "cropPlaceholder": "Select a crop",
+    "problemDescriptionLabel": "Problem Description",
+    "problemDescriptionPlaceholder": "e.g., leaves have yellow spots, pests are eating the fruits...",
+    "problemDescriptionHint": "Describe the symptoms or pests you are observing.",
+    "submitButton": "Get Suggestions",
+    "suggestionsTitle": "Recommended Pesticides",
+    "suitability": "Why it's suitable:",
+    "applicationInstructions": "Application:",
+    "categories": "Categories:",
+    "crops": "Effective on:",
+    "noSuggestions": "No Suggestions Found",
+    "noSuggestionsDescription": "We couldn't find any pesticide suggestions for the given problem and crop. Please try modifying your description.",
+    "errorFetching": "An error occurred while fetching suggestions. Please try again."
+  },
+  "productCatalog": {
+    "title": "Pesticide Product Catalog",
+    "description": "Explore our wide range of pesticide products. Find detailed information including application instructions and target crops.",
+    "searchLabel": "Search Products",
+    "searchPlaceholder": "Enter product name...",
+    "categoryFilterLabel": "Filter by Category",
+    "categoryFilterPlaceholder": "Select category",
+    "cropFilterLabel": "Filter by Crop",
+    "cropFilterPlaceholder": "Select crop",
+    "allCategories": "All Categories",
+    "allCrops": "All Crops",
+    "applicationInstructions": "Application Instructions",
+    "categories": "Categories",
+    "crops": "Effective on",
+    "noProductsFound": "No Products Found",
+    "noProductsFoundDescription": "Your search and filter criteria did not match any products. Try adjusting your filters."
+  },
+  "diseaseStats": {
+    "title": "Prevalent Disease Insights",
+    "description": "Stay informed about the most common plant diseases currently affecting crops.",
+    "chartTitle": "Top Prevalent Diseases",
+    "chartDescription": "Based on current agricultural data.",
+    "diseaseName": "Disease",
+    "prevalence": "Prevalence (Reported Cases)",
+    "noDataTitle": "No Disease Data Available",
+    "noDataDescription": "We are currently unable to fetch disease statistics. Please check back later."
+  },
+  "footer": {
+    "copyrightText": "CropSafe Advisor. All rights reserved."
+  },
+  "validation": {
+    "cropRequired": "Crop type is required.",
+    "problemDescriptionRequired": "Problem description is required.",
+    "problemDescriptionMinLength": "Problem description must be at least 10 characters."
+  },
+  "commonCrops": [
+    "Wheat", "Corn", "Rice", "Soybean", "Cotton", "Tomato", "Potato", "Apple", "Orange", "Grapes", "Sugarcane", "Barley", "Sunflower", "Peanut", "Mango"
+  ]
+}

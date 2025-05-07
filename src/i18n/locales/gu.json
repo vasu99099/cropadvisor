@@ -1,0 +1,75 @@
+
+{
+  "appName": "ક્રોપસેફ એડવાઈઝર",
+  "header": {
+    "navCropSuggestions": "પાક સૂચનો",
+    "navProductCatalog": "ઉત્પાદન સૂચિ",
+    "navDiseaseStats": "રોગ આંકડા"
+  },
+  "hero": {
+    "titleLine1": "તમારી લણણીને સુરક્ષિત કરો",
+    "titleHighlight": "નિષ્ણાત સલાહ",
+    "titleLine2": "સાથે",
+    "subtitle": "તમારા પાકને અનુરૂપ AI-સંચાલિત જંતુનાશક ભલામણો મેળવો અને છોડના રોગો સામે અસરકારક રીતે લડો. શ્રેષ્ઠ ઉકેલો માટે અમારી સૂચિ બ્રાઉઝ કરો.",
+    "ctaGetSuggestions": "સૂચનો મેળવો",
+    "ctaViewCatalog": "સૂચિ જુઓ",
+    "imageAlt": "સ્પષ્ટ આકાશ નીચે લીલુંછમ ખેતર",
+    "imageCaption": "સ્વસ્થ પાક, વિપુલ લણણી"
+  },
+  "cropSuggester": {
+    "title": "જંતુનાશક ભલામણો",
+    "description": "તમારો પાક પસંદ કરો અને સમસ્યાનું વર્ણન કરો જેથી AI-સંચાલિત જંતુનાશક સૂચનો મેળવી શકાય.",
+    "cropLabel": "પાકનો પ્રકાર",
+    "cropPlaceholder": "એક પાક પસંદ કરો",
+    "problemDescriptionLabel": "સમસ્યાનું વર્ણન",
+    "problemDescriptionPlaceholder": "દા.ત., પાંદડા પર પીળા ડાઘા છે, જીવાત ફળો ખાઈ રહી છે...",
+    "problemDescriptionHint": "તમે જે લક્ષણો અથવા જીવાતો જોઈ રહ્યા છો તેનું વર્ણન કરો.",
+    "submitButton": "સૂચનો મેળવો",
+    "suggestionsTitle": "ભલામણ કરેલ જંતુનાશકો",
+    "suitability": "શા માટે તે યોગ્ય છે:",
+    "applicationInstructions": "ઉપયોગ:",
+    "categories": "શ્રેણીઓ:",
+    "crops": "આના પર અસરકારક:",
+    "noSuggestions": "કોઈ સૂચનો મળ્યા નથી",
+    "noSuggestionsDescription": "આપેલ સમસ્યા અને પાક માટે અમને કોઈ જંતુનાશક સૂચનો મળ્યા નથી. કૃપા કરીને તમારા વર્ણનમાં ફેરફાર કરવાનો પ્રયાસ કરો.",
+    "errorFetching": "સૂચનો મેળવતી વખતે એક ભૂલ આવી. કૃપા કરીને ફરી પ્રયાસ કરો."
+  },
+  "productCatalog": {
+    "title": "જંતુનાશક ઉત્પાદન સૂચિ",
+    "description": "અમારા જંતુનાશક ઉત્પાદનોની વિશાળ શ્રેણીનું અન્વેષણ કરો. ઉપયોગ માટેની સૂચનાઓ અને લક્ષ્ય પાક સહિત વિગતવાર માહિતી મેળવો.",
+    "searchLabel": "ઉત્પાદનો શોધો",
+    "searchPlaceholder": "ઉત્પાદનનું નામ દાખલ કરો...",
+    "categoryFilterLabel": "શ્રેણી દ્વારા ફિલ્ટર કરો",
+    "categoryFilterPlaceholder": "શ્રેણી પસંદ કરો",
+    "cropFilterLabel": "પાક દ્વારા ફિલ્ટર કરો",
+    "cropFilterPlaceholder": "પાક પસંદ કરો",
+    "allCategories": "બધી શ્રેણીઓ",
+    "allCrops": "બધા પાક",
+    "applicationInstructions": "ઉપયોગ માટેની સૂચનાઓ",
+    "categories": "શ્રેણીઓ",
+    "crops": "આના પર અસરકારક",
+    "noProductsFound": "કોઈ ઉત્પાદનો મળ્યા નથી",
+    "noProductsFoundDescription": "તમારા શોધ અને ફિલ્ટર માપદંડો કોઈ ઉત્પાદનો સાથે મેળ ખાતા નથી. તમારા ફિલ્ટર્સને સમાયોજિત કરવાનો પ્રયાસ કરો."
+  },
+  "diseaseStats": {
+    "title": "પ્રચલિત રોગની માહિતી",
+    "description": "હાલમાં પાકને અસર કરતા સૌથી સામાન્ય છોડના રોગો વિશે માહિતગાર રહો.",
+    "chartTitle": "ટોચના પ્રચલિત રોગો",
+    "chartDescription": "વર્તમાન કૃષિ માહિતી પર આધારિત.",
+    "diseaseName": "રોગ",
+    "prevalence": "પ્રચલિતતા (નોંધાયેલા કેસો)",
+    "noDataTitle": "કોઈ રોગ માહિતી ઉપલબ્ધ નથી",
+    "noDataDescription": "અમે હાલમાં રોગના આંકડા મેળવવામાં અસમર્થ છીએ. કૃપા કરીને પછીથી તપાસો."
+  },
+  "footer": {
+    "copyrightText": "ક્રોપસેફ એડવાઈઝર. સર્વાધિકાર સુરક્ષિત."
+  },
+  "validation": {
+    "cropRequired": "પાકનો પ્રકાર જરૂરી છે.",
+    "problemDescriptionRequired": "સમસ્યાનું વર્ણન જરૂરી છે.",
+    "problemDescriptionMinLength": "સમસ્યાનું વર્ણન ઓછામાં ઓછું 10 અક્ષરોનું હોવું જોઈએ."
+  },
+  "commonCrops": [
+    "ઘઉં", "મકાઈ", "ચોખા", "સોયાબીન", "કપાસ", "ટામેટા", "બટાકા", "સફરજન", "નારંગી", "દ્રાક્ષ", "શેરડી", "જવ", "સૂર્યમુખી", "મગફળી", "કેરી"
+  ]
+}

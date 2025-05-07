@@ -1,0 +1,75 @@
+
+{
+  "appName": "CropSafe Asesor",
+  "header": {
+    "navCropSuggestions": "Sugerencias de Cultivo",
+    "navProductCatalog": "Catálogo de Productos",
+    "navDiseaseStats": "Estadísticas de Enfermedades"
+  },
+  "hero": {
+    "titleLine1": "Proteja Su Cosecha con",
+    "titleHighlight": "Asesoramiento Experto",
+    "titleLine2": "",
+    "subtitle": "Obtenga recomendaciones de pesticidas impulsadas por IA adaptadas a sus cultivos y combata eficazmente las enfermedades de las plantas. Explore nuestro catálogo para encontrar las mejores soluciones.",
+    "ctaGetSuggestions": "Obtener Sugerencias",
+    "ctaViewCatalog": "Ver Catálogo",
+    "imageAlt": "Campo verde exuberante bajo un cielo despejado",
+    "imageCaption": "Cultivos Sanos, Cosecha Abundante"
+  },
+  "cropSuggester": {
+    "title": "Recomendaciones de Pesticidas",
+    "description": "Seleccione su cultivo y describa el problema para obtener sugerencias de pesticidas impulsadas por IA.",
+    "cropLabel": "Tipo de Cultivo",
+    "cropPlaceholder": "Seleccione un cultivo",
+    "problemDescriptionLabel": "Descripción del Problema",
+    "problemDescriptionPlaceholder": "ej., las hojas tienen manchas amarillas, las plagas se comen las frutas...",
+    "problemDescriptionHint": "Describa los síntomas o plagas que está observando.",
+    "submitButton": "Obtener Sugerencias",
+    "suggestionsTitle": "Pesticidas Recomendados",
+    "suitability": "Por qué es adecuado:",
+    "applicationInstructions": "Aplicación:",
+    "categories": "Categorías:",
+    "crops": "Eficaz en:",
+    "noSuggestions": "No se Encontraron Sugerencias",
+    "noSuggestionsDescription": "No pudimos encontrar ninguna sugerencia de pesticida para el problema y cultivo dados. Intente modificar su descripción.",
+    "errorFetching": "Ocurrió un error al obtener las sugerencias. Por favor, inténtelo de nuevo."
+  },
+  "productCatalog": {
+    "title": "Catálogo de Productos Pesticidas",
+    "description": "Explore nuestra amplia gama de productos pesticidas. Encuentre información detallada, incluyendo instrucciones de aplicación y cultivos objetivo.",
+    "searchLabel": "Buscar Productos",
+    "searchPlaceholder": "Ingrese el nombre del producto...",
+    "categoryFilterLabel": "Filtrar por Categoría",
+    "categoryFilterPlaceholder": "Seleccione categoría",
+    "cropFilterLabel": "Filtrar por Cultivo",
+    "cropFilterPlaceholder": "Seleccione cultivo",
+    "allCategories": "Todas las Categorías",
+    "allCrops": "Todos los Cultivos",
+    "applicationInstructions": "Instrucciones de Aplicación",
+    "categories": "Categorías",
+    "crops": "Eficaz en",
+    "noProductsFound": "No se Encontraron Productos",
+    "noProductsFoundDescription": "Sus criterios de búsqueda y filtro no coincidieron con ningún producto. Intente ajustar sus filtros."
+  },
+  "diseaseStats": {
+    "title": "Información sobre Enfermedades Prevalentes",
+    "description": "Manténgase informado sobre las enfermedades de plantas más comunes que afectan actualmente a los cultivos.",
+    "chartTitle": "Principales Enfermedades Prevalentes",
+    "chartDescription": "Basado en datos agrícolas actuales.",
+    "diseaseName": "Enfermedad",
+    "prevalence": "Prevalencia (Casos Reportados)",
+    "noDataTitle": "No Hay Datos de Enfermedades Disponibles",
+    "noDataDescription": "Actualmente no podemos obtener estadísticas de enfermedades. Por favor, vuelva más tarde."
+  },
+  "footer": {
+    "copyrightText": "CropSafe Asesor. Todos los derechos reservados."
+  },
+  "validation": {
+    "cropRequired": "El tipo de cultivo es obligatorio.",
+    "problemDescriptionRequired": "La descripción del problema es obligatoria.",
+    "problemDescriptionMinLength": "La descripción del problema debe tener al menos 10 caracteres."
+  },
+  "commonCrops": [
+    "Trigo", "Maíz", "Arroz", "Soja", "Algodón", "Tomate", "Patata", "Manzana", "Naranja", "Uvas", "Caña de azúcar", "Cebada", "Girasol", "Cacahuete", "Mango"
+  ]
+}
