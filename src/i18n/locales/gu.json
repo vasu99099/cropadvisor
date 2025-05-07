@@ -4,7 +4,8 @@
   "header": {
     "navCropSuggestions": "પાક સૂચનો",
     "navProductCatalog": "ઉત્પાદન સૂચિ",
-    "navDiseaseStats": "રોગ આંકડા"
+    "navDiseaseStats": "રોગ આંકડા",
+    "navPlantIdentifier": "વનસ્પતિ ઓળખકર્તા"
   },
   "hero": {
     "titleLine1": "તમારી લણણીને સુરક્ષિત કરો",
@@ -60,6 +61,41 @@
     "prevalence": "પ્રચલિતતા (નોંધાયેલા કેસો)",
     "noDataTitle": "કોઈ રોગ માહિતી ઉપલબ્ધ નથી",
     "noDataDescription": "અમે હાલમાં રોગના આંકડા મેળવવામાં અસમર્થ છીએ. કૃપા કરીને પછીથી તપાસો."
+  },
+  "plantDiseaseIdentifier": {
+    "title": "વનસ્પતિ રોગ ઓળખકર્તા",
+    "description": "તમારા છોડની છબી અપલોડ કરો અથવા AI-સંચાલિત રોગ નિદાન અને સારવાર સૂચનો મેળવવા માટે તમારા વેબકેમનો ઉપયોગ કરો.",
+    "uploadCardTitle": "છબીમાંથી રોગ ઓળખો",
+    "uploadLabel": "એક છબી પસંદ કરો",
+    "uploadHint": "PNG, JPG, WEBP 5MB સુધી. શ્રેષ્ઠ પરિણામો માટે, અસરગ્રસ્ત છોડના વિસ્તારની સ્પષ્ટ છબીનો ઉપયોગ કરો.",
+    "orDragAndDrop": "અથવા ખેંચો અને છોડો",
+    "useWebcamButton": "વેબકેમનો ઉપયોગ કરો",
+    "captureFromWebcamButton": "છબી કેપ્ચર કરો",
+    "closeWebcamButton": "વેબકેમ બંધ કરો",
+    "clearImageButton": "છબી સાફ કરો",
+    "descriptionLabel": "વૈકલ્પિક: લક્ષણો વિશે નોંધ ઉમેરો",
+    "descriptionPlaceholder": "દા.ત., પાંદડા પર પીળા ડાઘા, સુકાઈ જવું, જીવાતો જોવા મળી...",
+    "submitButton": "વનસ્પતિનું નિદાન કરો",
+    "submittingButton": "નિદાન કરી રહ્યું છે...",
+    "resultsTitle": "નિદાન પરિણામો",
+    "isPlantLabel": "શું આ વનસ્પતિ છે?",
+    "plantNameLabel": "વનસ્પતિનું નામ:",
+    "diseaseIdentifiedLabel": "રોગ શોધાયો?",
+    "diseaseNameLabel": "ઓળખાયેલ રોગ/સ્થિતિ:",
+    "diseaseDescriptionLabel": "વિગતો:",
+    "confidenceScoreLabel": "વિશ્વાસ ગુણાંક:",
+    "treatmentRecommendationsLabel": "ભલામણો:",
+    "noPlantDetected": "છબીમાં વનસ્પતિ હોય તેવું લાગતું નથી, અથવા વિશ્લેષણ માટે વનસ્પતિ સ્પષ્ટ રીતે દેખાતી નથી.",
+    "noDiseaseDetected": "કોઈ ચોક્કસ રોગ ઓળખાયો નથી. વનસ્પતિ સ્વસ્થ દેખાય છે અથવા છબીમાંથી નિદાન માટે લક્ષણો પૂરતા સ્પષ્ટ નથી.",
+    "errorFetching": "વનસ્પતિનું નિદાન કરતી વખતે એક ભૂલ આવી. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.",
+    "errorNoImage": "કૃપા કરીને નિદાન માટે સબમિટ કરતા પહેલા એક છબી અપલોડ કરો અથવા કેપ્ચર કરો.",
+    "webcamError": "વેબકેમ ઍક્સેસ કરવામાં ભૂલ. કૃપા કરીને ખાતરી કરો કે પરવાનગીઓ આપવામાં આવી છે અને અન્ય કોઈ એપ્લિકેશન કેમેરાનો ઉપયોગ કરી રહી નથી.",
+    "webcamNotSupported": "તમારા ઉપકરણ પર વેબકેમ સપોર્ટેડ નથી અથવા મળ્યો નથી.",
+    "cameraAccessRequiredTitle": "કેમેરા ઍક્સેસ જરૂરી",
+    "cameraAccessRequiredDescription": "આ સુવિધાનો ઉપયોગ કરવા માટે કૃપા કરીને તમારા બ્રાઉઝર સેટિંગ્સમાં કેમેરા ઍક્સેસને મંજૂરી આપો.",
+    "imagePreviewAlt": "અપલોડ કરેલી વનસ્પતિ છબીનું પૂર્વાવલોકન",
+    "booleanYes": "હા",
+    "booleanNo": "ના"
   },
   "footer": {
     "copyrightText": "ક્રોપસેફ એડવાઈઝર. સર્વાધિકાર સુરક્ષિત."

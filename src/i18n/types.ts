@@ -15,6 +15,7 @@ export interface Translations {
     navCropSuggestions: string;
     navProductCatalog: string;
     navDiseaseStats: string;
+    navPlantIdentifier: string; // New navigation item
   };
   hero: {
     titleLine1: string;
@@ -70,6 +71,41 @@ export interface Translations {
     prevalence: string;
     noDataTitle: string;
     noDataDescription: string;
+  };
+  plantDiseaseIdentifier: { // New section for Plant Disease Identifier
+    title: string;
+    description: string;
+    uploadCardTitle: string;
+    uploadLabel: string;
+    uploadHint: string;
+    orDragAndDrop: string;
+    useWebcamButton: string;
+    captureFromWebcamButton: string;
+    closeWebcamButton: string;
+    clearImageButton: string;
+    descriptionLabel: string;
+    descriptionPlaceholder: string;
+    submitButton: string;
+    submittingButton: string;
+    resultsTitle: string;
+    isPlantLabel: string;
+    plantNameLabel: string;
+    diseaseIdentifiedLabel: string;
+    diseaseNameLabel: string;
+    diseaseDescriptionLabel: string;
+    confidenceScoreLabel: string;
+    treatmentRecommendationsLabel: string;
+    noPlantDetected: string;
+    noDiseaseDetected: string;
+    errorFetching: string;
+    errorNoImage: string;
+    webcamError: string;
+    webcamNotSupported: string;
+    cameraAccessRequiredTitle: string;
+    cameraAccessRequiredDescription: string;
+    imagePreviewAlt: string;
+    booleanYes: string;
+    booleanNo: string;
   };
   footer: {
     copyrightText: string;

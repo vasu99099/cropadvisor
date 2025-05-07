@@ -4,7 +4,8 @@
   "header": {
     "navCropSuggestions": "Suggestions de Culture",
     "navProductCatalog": "Catalogue de Produits",
-    "navDiseaseStats": "Statistiques Maladies"
+    "navDiseaseStats": "Statistiques Maladies",
+    "navPlantIdentifier": "Identifiant de Plante"
   },
   "hero": {
     "titleLine1": "Protégez Votre Récolte avec des",
@@ -60,6 +61,41 @@
     "prevalence": "Prévalence (Cas Signalés)",
     "noDataTitle": "Aucune Donnée sur les Maladies Disponible",
     "noDataDescription": "Nous ne parvenons actuellement pas à récupérer les statistiques sur les maladies. Veuillez vérifier ultérieurement."
+  },
+  "plantDiseaseIdentifier": {
+    "title": "Identificateur de Maladies des Plantes",
+    "description": "Téléchargez une image de votre plante ou utilisez votre webcam pour obtenir un diagnostic de maladie et des suggestions de traitement basés sur l'IA.",
+    "uploadCardTitle": "Identifier la Maladie à partir de l'Image",
+    "uploadLabel": "Choisissez une image",
+    "uploadHint": "PNG, JPG, WEBP jusqu'à 5 Mo. Pour de meilleurs résultats, utilisez une image claire de la zone affectée de la plante.",
+    "orDragAndDrop": "ou glisser-déposer",
+    "useWebcamButton": "Utiliser la Webcam",
+    "captureFromWebcamButton": "Capturer l'Image",
+    "closeWebcamButton": "Fermer la Webcam",
+    "clearImageButton": "Effacer l'Image",
+    "descriptionLabel": "Optionnel : Ajoutez des notes sur les symptômes",
+    "descriptionPlaceholder": "ex: taches jaunes sur les feuilles, flétrissement, ravageurs observés...",
+    "submitButton": "Diagnostiquer la Plante",
+    "submittingButton": "Diagnostic en cours...",
+    "resultsTitle": "Résultats du Diagnostic",
+    "isPlantLabel": "Est-ce une plante ?",
+    "plantNameLabel": "Nom de la Plante :",
+    "diseaseIdentifiedLabel": "Maladie Détectée ?",
+    "diseaseNameLabel": "Maladie/État Identifié :",
+    "diseaseDescriptionLabel": "Détails :",
+    "confidenceScoreLabel": "Score de Confiance :",
+    "treatmentRecommendationsLabel": "Recommandations :",
+    "noPlantDetected": "L'image ne semble pas contenir de plante, ou la plante n'est pas clairement visible pour analyse.",
+    "noDiseaseDetected": "Aucune maladie spécifique n'a été identifiée. La plante semble saine ou les symptômes ne sont pas assez clairs pour un diagnostic à partir de l'image.",
+    "errorFetching": "Une erreur s'est produite lors du diagnostic de la plante. Veuillez réessayer plus tard.",
+    "errorNoImage": "Veuillez télécharger ou capturer une image avant de soumettre pour diagnostic.",
+    "webcamError": "Erreur d'accès à la webcam. Veuillez vous assurer que les autorisations sont accordées et qu'aucune autre application n'utilise la caméra.",
+    "webcamNotSupported": "La webcam n'est pas prise en charge ou est introuvable sur votre appareil.",
+    "cameraAccessRequiredTitle": "Accès Caméra Requis",
+    "cameraAccessRequiredDescription": "Veuillez autoriser l'accès à la caméra dans les paramètres de votre navigateur pour utiliser cette fonctionnalité.",
+    "imagePreviewAlt": "Aperçu de l'image de la plante téléchargée",
+    "booleanYes": "Oui",
+    "booleanNo": "Non"
   },
   "footer": {
     "copyrightText": "CropSafe Conseiller. Tous droits réservés."

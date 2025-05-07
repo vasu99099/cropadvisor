@@ -1,7 +1,7 @@
 
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/language-switcher';
-import { Leaf } from 'lucide-react';
+import { Leaf, Microscope } from 'lucide-react'; // Added Microscope
 import type { Locale, Translations } from '@/i18n/types';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
@@ -17,6 +17,7 @@ interface HeaderProps {
 export default function Header({ locale, translations }: HeaderProps) {
   const navItems = [
     { href: '#crop-suggestions', label: translations.header.navCropSuggestions },
+    { href: '#plant-identifier', label: translations.header.navPlantIdentifier }, // New nav item
     { href: '#product-catalog', label: translations.header.navProductCatalog },
     { href: '#disease-stats', label: translations.header.navDiseaseStats },
   ];
@@ -29,7 +30,7 @@ export default function Header({ locale, translations }: HeaderProps) {
           <span className="text-xl font-bold text-foreground">{translations.appName}</span>
         </Link>
         
-        <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
+        <nav className="hidden md:flex items-center space-x-4 lg:space-x-6 text-sm font-medium">
           {navItems.map((item) => (
             <Link key={item.label} href={`/${locale}${item.href}`} className="text-muted-foreground transition-colors hover:text-primary">
               {item.label}
@@ -54,6 +55,8 @@ export default function Header({ locale, translations }: HeaderProps) {
                 {navItems.map((item) => (
                   <SheetClose asChild key={item.label}>
                     <Link href={`/${locale}${item.href}`} className="block px-3 py-2 rounded-md text-base font-medium text-muted-foreground hover:bg-accent hover:text-accent-foreground">
+                       {/* Optional: Add icons to mobile nav if desired */}
+                      {item.href === '#plant-identifier' && <Microscope className="inline h-4 w-4 mr-2" />}
                       {item.label}
                     </Link>
                   </SheetClose>

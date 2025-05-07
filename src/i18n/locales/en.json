@@ -4,7 +4,8 @@
   "header": {
     "navCropSuggestions": "Crop Suggestions",
     "navProductCatalog": "Product Catalog",
-    "navDiseaseStats": "Disease Stats"
+    "navDiseaseStats": "Disease Stats",
+    "navPlantIdentifier": "Plant Identifier"
   },
   "hero": {
     "titleLine1": "Protect Your Harvest with",
@@ -60,6 +61,41 @@
     "prevalence": "Prevalence (Reported Cases)",
     "noDataTitle": "No Disease Data Available",
     "noDataDescription": "We are currently unable to fetch disease statistics. Please check back later."
+  },
+  "plantDiseaseIdentifier": {
+    "title": "Plant Disease Identifier",
+    "description": "Upload an image of your plant or use your webcam to get an AI-powered disease diagnosis and treatment suggestions.",
+    "uploadCardTitle": "Identify Disease from Image",
+    "uploadLabel": "Choose an image",
+    "uploadHint": "PNG, JPG, WEBP up to 5MB. For best results, use a clear image of the affected plant area.",
+    "orDragAndDrop": "or drag and drop",
+    "useWebcamButton": "Use Webcam",
+    "captureFromWebcamButton": "Capture Image",
+    "closeWebcamButton": "Close Webcam",
+    "clearImageButton": "Clear Image",
+    "descriptionLabel": "Optional: Add notes about symptoms",
+    "descriptionPlaceholder": "e.g., yellow spots on leaves, wilting, pests observed...",
+    "submitButton": "Diagnose Plant",
+    "submittingButton": "Diagnosing...",
+    "resultsTitle": "Diagnosis Results",
+    "isPlantLabel": "Is it a plant?",
+    "plantNameLabel": "Plant Name:",
+    "diseaseIdentifiedLabel": "Disease Detected?",
+    "diseaseNameLabel": "Identified Disease/Status:",
+    "diseaseDescriptionLabel": "Details:",
+    "confidenceScoreLabel": "Confidence Score:",
+    "treatmentRecommendationsLabel": "Recommendations:",
+    "noPlantDetected": "The image does not appear to contain a plant, or the plant is not clearly visible for analysis.",
+    "noDiseaseDetected": "No specific disease was identified. The plant appears healthy or symptoms are not clear enough for diagnosis from the image.",
+    "errorFetching": "An error occurred while diagnosing the plant. Please try again later.",
+    "errorNoImage": "Please upload or capture an image before submitting for diagnosis.",
+    "webcamError": "Error accessing webcam. Please ensure permissions are granted and no other app is using the camera.",
+    "webcamNotSupported": "Webcam is not supported or not found on your device.",
+    "cameraAccessRequiredTitle": "Camera Access Required",
+    "cameraAccessRequiredDescription": "Please allow camera access in your browser settings to use this feature.",
+    "imagePreviewAlt": "Uploaded plant image preview",
+    "booleanYes": "Yes",
+    "booleanNo": "No"
   },
   "footer": {
     "copyrightText": "CropSafe Advisor. All rights reserved."

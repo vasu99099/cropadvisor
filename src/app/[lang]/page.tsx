@@ -2,6 +2,7 @@
 import Header from '@/components/header';
 import HeroSection from '@/components/hero-section';
 import CropPesticideSuggester from '@/components/crop-pesticide-suggester';
+import PlantDiseaseIdentifier from '@/components/plant-disease-identifier'; // New import
 import ProductCatalog from '@/components/product-catalog';
 import DiseaseStats from '@/components/disease-stats';
 import Footer from '@/components/footer';
@@ -30,6 +31,7 @@ export default async function HomePage({ params: { lang } }: HomePageProps) {
       <main className="flex-grow">
         <HeroSection locale={lang} translations={dictionary} />
         <CropPesticideSuggester locale={lang} translations={dictionary} />
+        <PlantDiseaseIdentifier locale={lang} translations={dictionary} /> {/* New Component */}
         <ProductCatalog locale={lang} translations={dictionary} />
         <DiseaseStats locale={lang} translations={dictionary} />
       </main>
