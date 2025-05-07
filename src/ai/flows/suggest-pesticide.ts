@@ -69,6 +69,7 @@ const suggestPesticideFlow = ai.defineFlow(
     const {output} = await suggestPesticidePrompt(promptInput);
 
     //Need to attach reason of why this pesticide is suitable for the user input
+    console.log('AI Flow Response:', output);
     return output!;
   }
 );
