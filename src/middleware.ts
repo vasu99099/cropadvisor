@@ -1,7 +1,7 @@
 
 import { NextResponse, type NextRequest } from 'next/server';
-import { i18n } from './src/i18n/i18n-config';
-import type { Locale } from './src/i18n/types';
+import { i18n } from './i18n/i18n-config';
+import type { Locale } from './i18n/types';
 import { match as matchLocale } from '@formatjs/intl-localematcher';
 import Negotiator from 'negotiator';
 
@@ -33,7 +33,7 @@ function getLocale(request: NextRequest): Locale {
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
-  // console.log(`[Middleware] Pathname: ${pathname}`);
+  console.log(`[Middleware] Pathname: ${pathname}`);
 
   // Check if there is any supported locale in the pathname
   const pathnameIsMissingLocale = i18n.locales.every(
